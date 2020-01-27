@@ -1,0 +1,20 @@
+.ngx-gallery {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 570px !important;
+    height: 772px !important;
+  }
+
+  ngx-gallery-image {
+    height: 100% !important;
+  }
+  
+  // .ngx-gallery-layout.thumbnails-bottom ngx-gallery-thumbnails {
+  //   height: calc(25% - 50px) !important;
+  // }
+  .ngx-gallery-thumbnails .ngx-gallery-thumbnail {
+    border: 1px double #ccc !important;
+  }
+  .ngx-gallery-thumbnails .ngx-gallery-thumbnail.ngx-gallery-active {
+    border: 1px double #ccc !important;
+  }
